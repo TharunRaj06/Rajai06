@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/RAJAI/static/css/main.7c8e6e93.chunk.css",
+    "main.js": "/RAJAI/static/js/main.1585316b.chunk.js",
+    "main.js.map": "/RAJAI/static/js/main.1585316b.chunk.js.map",
+    "runtime-main.js": "/RAJAI/static/js/runtime-main.50ec33a0.js",
+    "runtime-main.js.map": "/RAJAI/static/js/runtime-main.50ec33a0.js.map",
+    "static/js/2.f6d2a8ef.chunk.js": "/RAJAI/static/js/2.f6d2a8ef.chunk.js",
+    "static/js/2.f6d2a8ef.chunk.js.map": "/RAJAI/static/js/2.f6d2a8ef.chunk.js.map",
+    "static/js/3.89e04ce4.chunk.js": "/RAJAI/static/js/3.89e04ce4.chunk.js",
+    "static/js/3.89e04ce4.chunk.js.map": "/RAJAI/static/js/3.89e04ce4.chunk.js.map",
+    "index.html": "/RAJAI/index.html",
+    "static/css/main.7c8e6e93.chunk.css.map": "/RAJAI/static/css/main.7c8e6e93.chunk.css.map",
+    "static/js/2.f6d2a8ef.chunk.js.LICENSE.txt": "/RAJAI/static/js/2.f6d2a8ef.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.50ec33a0.js",
+    "static/js/2.f6d2a8ef.chunk.js",
+    "static/css/main.7c8e6e93.chunk.css",
+    "static/js/main.1585316b.chunk.js"
+  ]
+}

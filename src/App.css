@@ -1,0 +1,44 @@
+.Container {
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#text {
+  background-color: black;
+  border: none;
+  outline: none;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  width: 50%;
+  letter-spacing: 3px;
+}
+#text:focus {
+  border-bottom: 1px solid white;
+  transition: 2s all ease-out;
+}
+#text::placeholder {
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1rem;
+  letter-spacing: 3px;
+}
+#btn {
+  margin-top: 30px;
+  padding: 20px 50px;
+  background-color: black;
+  color: white;
+  font-size: 1rem;
+  letter-spacing: 3px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+#btn:hover {
+  background-color: white;
+  color: black;
+  transition: all 0.3s ease-in;
+}
