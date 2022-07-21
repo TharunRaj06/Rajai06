@@ -14,27 +14,6 @@ const App = () => {
     "please show me today's weather",
     "open weather",
   ];
-  const BadWords = [
-    "porn",
-    "xnxx.com",
-    "sex",
-    "xnxx",
-    "bitch",
-    "lanja",
-    "asshole",
-    "pornhub.com",
-    "fuck",
-    "fucku",
-    "can i fuck you",
-    "fuck you",
-    "fuck off",
-  ];
-  const BadWordsresult = [
-    "I will Fuck you to your death you bitch",
-    "fuck off you dumb ass",
-    "your an asshole",
-    "fuck you",
-  ];
   const playSongs = [
     "play songs",
     "open spotify",
@@ -148,12 +127,6 @@ const App = () => {
       ref.current.value = "";
       let link = "https://www.fast.com/";
       window.location.href = link;
-    }
-    if (BadWords.includes(ref.current.value)) {
-      let page = RandomBadWord;
-      msg.text = page;
-      window.speechSynthesis.speak(msg);
-      ref.current.value = "";
     }
     if (playSongs.includes(ref.current.value)) {
       let page = "opening spotify";
